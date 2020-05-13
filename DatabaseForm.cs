@@ -132,7 +132,7 @@ namespace SOFT562Week18
                     // customers table.
                     //
                     ///////////////////////////////////////////////////////////
-                    string query = "SELECT * FROM soft562_marco.product";
+                    string query = "SELECT * FROM isad157_twhatmough.Users";
 
                     ///////////////////////////////////////////////////////////
                     //

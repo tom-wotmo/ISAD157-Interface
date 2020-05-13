@@ -38,21 +38,23 @@
             // dataGridViewCustomer
             // 
             this.dataGridViewCustomer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewCustomer.Location = new System.Drawing.Point(20, 15);
+            this.dataGridViewCustomer.Location = new System.Drawing.Point(15, 12);
+            this.dataGridViewCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridViewCustomer.Name = "dataGridViewCustomer";
             this.dataGridViewCustomer.RowHeadersWidth = 51;
             this.dataGridViewCustomer.RowTemplate.Height = 24;
-            this.dataGridViewCustomer.Size = new System.Drawing.Size(368, 370);
+            this.dataGridViewCustomer.Size = new System.Drawing.Size(276, 301);
             this.dataGridViewCustomer.TabIndex = 0;
             // 
             // dataGridViewProduct
             // 
             this.dataGridViewProduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewProduct.Location = new System.Drawing.Point(414, 15);
+            this.dataGridViewProduct.Location = new System.Drawing.Point(310, 12);
+            this.dataGridViewProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridViewProduct.Name = "dataGridViewProduct";
             this.dataGridViewProduct.RowHeadersWidth = 51;
             this.dataGridViewProduct.RowTemplate.Height = 24;
-            this.dataGridViewProduct.Size = new System.Drawing.Size(364, 370);
+            this.dataGridViewProduct.Size = new System.Drawing.Size(273, 301);
             this.dataGridViewProduct.TabIndex = 1;
             // 
             // comboBoxQueryChoice
@@ -62,20 +64,22 @@
             this.comboBoxQueryChoice.Items.AddRange(new object[] {
             "Customers Table",
             "Products Table"});
-            this.comboBoxQueryChoice.Location = new System.Drawing.Point(20, 404);
+            this.comboBoxQueryChoice.Location = new System.Drawing.Point(15, 328);
+            this.comboBoxQueryChoice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBoxQueryChoice.Name = "comboBoxQueryChoice";
-            this.comboBoxQueryChoice.Size = new System.Drawing.Size(757, 34);
+            this.comboBoxQueryChoice.Size = new System.Drawing.Size(569, 29);
             this.comboBoxQueryChoice.TabIndex = 2;
             this.comboBoxQueryChoice.SelectedIndexChanged += new System.EventHandler(this.comboBoxQueryChoice_SelectedIndexChanged);
             // 
             // DatabaseForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1056, 619);
             this.Controls.Add(this.comboBoxQueryChoice);
             this.Controls.Add(this.dataGridViewProduct);
             this.Controls.Add(this.dataGridViewCustomer);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "DatabaseForm";
             this.Text = "Database Form Test";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCustomer)).EndInit();
